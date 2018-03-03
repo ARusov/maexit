@@ -1,0 +1,149 @@
+/*******************/
+/***  MANAGER    ***/
+/*******************/
+.nav-stacked {    
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.nav-pills>li>a {
+    border-radius: 0;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #203865;
+}
+
+.tab-content {
+    border-left: 1px solid #DDD;
+    padding-bottom: 25px;
+}
+
+.tab-pane {
+    padding: 7.5px 15px;
+}
+
+.tab-pane-title {
+    display: inline-block;
+}
+
+.tab-inner {
+    margin-top: 25px;
+}
+
+.btn-save {
+    margin-top: 10px;
+    padding: 10px 12px;
+    float: right;
+    margin-left: 5px;
+}
+
+.btn-preview {
+    margin-top: 10px;
+    padding: 10px 12px;
+    float: right;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 3px 7px;
+    margin-right: 10px;
+}
+
+.trumbowyg-box, .trumbowyg-editor  {
+    margin: 0;
+}
+
+.training-cover {
+    border: 1px solid #000;
+    height: 300px;
+    width: 100%;
+}
+
+.cover-info {
+    height: 300px; 
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    padding-right: 30px;
+}
+
+.btn-input {
+    padding: 9px;
+}
+
+.info-line {
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.select-source option{
+    font-size: 150%;
+}
+
+.progress {
+    height: 40px;
+    border-radius: 0;
+}
+
+.bar {
+    background-color: #203865;
+    height: 40px;
+    width: 0%; 
+}
+
+.percent {
+    width: 100%;
+    margin: 0 auto;
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 3px;
+    display: block;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.lesson {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.lesson-title {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-lesson {
+    padding: 1px 6px;
+}
+
+.lesson .fa-bars {
+    cursor: move;
+    margin-left: 20px;
+}
+
+#video-preview{
+    width: 100%    !important;
+    height: auto   !important;
+}
+
+#file-preview{
+    width: 100%    !important;
+    height: auto   !important;
+}
+
+.checkbox-inline {
+    margin-left: 0 !important;
+    margin-bottom: 5px !important;
+}

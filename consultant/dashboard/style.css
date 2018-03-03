@@ -1,0 +1,41 @@
+/*******************/
+/***  DASHBOARD  ***/
+/*******************/
+.btn-addTraining {
+    float: right;
+    text-align: right;   
+    padding: 0;
+}
+
+.card-training {
+    margin-top: 15px;
+    border-radius: 0px;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-inner {
+    height: 150px;
+}
+
+.training-cover {
+    height: 150px;
+    width: 200px;
+    float: left;
+}
+
+.training-titel {
+    display: inline;
+}
+
+.training-subtitel {
+    margin: 0;
+}
+
+.card-bottom {
+    position: absolute;
+    bottom: 0;
+}
