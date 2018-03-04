@@ -344,6 +344,9 @@ if (isset($_GET['action']) && $_GET['action'] == 'joined') {
                 </div>
             </div>
             <div class="modal-footer">
+                <div class="col-md-4" style="text-align: center">
+                    <a href="company/dashboard/dashboard.php" target="_blank"><button type="button" class="btn btn-lg btn-info" style="width: 100%">New Account</button></a>
+                </div>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
             </div>
         </div>
