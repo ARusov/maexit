@@ -17,10 +17,11 @@ class User extends Password
 //            $password = '';
 
 
-            $host_name = 'db721794461.db.1and1.com';
-            $database = 'db721794461';
-            $user_name = 'dbo721794461';
-            $password = '9on2e1U4lH06K73v';
+            $host_name = 'eu-cdbr-west-02.cleardb.net';
+            $user_name = 'bf469b03cd1968';
+            $password = '1e363d9d';
+            $database = 'heroku_9333fea582beece';
+
 
 
             $dbh = new PDO("mysql:host=$host_name; dbname=$database;", $user_name, $password);

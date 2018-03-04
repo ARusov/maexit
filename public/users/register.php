@@ -89,7 +89,7 @@ if(isset($_POST['submit'])){
 //			$mail->send();
 
 			//redirect to index page
-			header('Location: ' . $location .'?action=joined');
+			header('Location: /?action=joined');
 			exit;
 
 		//else catch the exception and show the error.
