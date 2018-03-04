@@ -6,21 +6,16 @@ session_start();
 //set timezone
 date_default_timezone_set('Europe/London');
 
-//database credentials
-//define('DBHOST','localhost');
-//define('DBUSER','root');
-//define('DBPASS','');
-//define('DBNAME','maexit');
+$host_name = 'eu-cdbr-west-02.cleardb.net';
+$user_name = 'bf469b03cd1968';
+$password = '1e363d9d';
+$database = 'heroku_9333fea582beece';
 
-//$host_name = 'localhost';
-//$database = 'maexit';
-//$user_name = 'root';
-//$password = '';
 
-$host_name = 'db721794461.db.1and1.com';
-$database = 'db721794461';
-$user_name = 'dbo721794461';
-$password = '9on2e1U4lH06K73v';
+//$host_name = 'db721794461.db.1and1.com';
+//$database = 'db721794461';
+//$user_name = 'dbo721794461';
+//$password = '9on2e1U4lH06K73v';
 
 $dbh = null;
 try {
@@ -35,6 +30,4 @@ if ($dbh==null){
 }
 
 $user = new User($dbh);
-//$location = "http://localhost/maexit";
-$location = "http://maexit.net";
 ?>
